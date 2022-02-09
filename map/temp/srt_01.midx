@@ -1,0 +1,10 @@
+$Script_Main#Script_Main#0#80240000#9C
+$Start#Unknown#0#80240000#0
+$Header#Header#9C#8024009C#40
+$Script_SetupMusic#Script#DC#802400DC#3C
+$Function_Init#Function_Init#118#80240118#2C
+$EntryList#EntryList#144#80240144#10
+$Script_EnterMap#Script#154#80240154#10
+$Script_CreateExitTriggers#Script#164#80240164#10
+$ASCII_"mac_tex"_Literal#ASCII#174#80240174#8
+$End#Unknown#180#80240180#27E80
