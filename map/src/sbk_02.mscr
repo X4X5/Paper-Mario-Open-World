@@ -1037,7 +1037,7 @@ PADDING: 80241248 to 80241250 (00001248 to 00001250)
 
 #new:Script $Script_802414FC
 {
-    0:  Call  SetRenderMode     ( ~Model:o225 00000016 )
+    0:  Call  SetRenderMode     ( ~Model:o225 .RenderMode:Surface_XLU_Layer2 )
    14:  Call  EnableTexPanning  ( ~Model:o225 .True )
    28:  Call  EnableTexPanning  ( 00002710 .True )
    3C:  Set   *Var0  00000000

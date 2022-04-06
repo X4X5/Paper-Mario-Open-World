@@ -2553,7 +2553,7 @@ PADDING: 8024355C to 80243560 (0000355C to 00003560)
    38:  	Call  $Function_80240FE4 ( )
    44:  	Call  $Function_8024116C ( )
    50:  	Call  802CFD30  ( FFFFFFFF 00000007 *Var0 00000000 00000000 00000000 )
-   74:  	Call  802D0244  ( FFFFFFFF 00000011 )
+   74:  	Call  SetNpcRenderMode  ( .Npc:Self .RenderMode:Surface_XLU_Layer1 )
    88:  	Wait  1`
    94:  EndLoop
    9C:  Return

@@ -945,7 +945,7 @@ PADDING: 802410C4 to 802410D0 (000010C4 to 000010D0)
    78:  		Set   *Var8  FFFFFFFF
    88:  		Return
    90:  	Else
-   98:  		Call  SetPlayerActionState  ( 00000014 )
+   98:  		Call  SetPlayerActionState  ( .ActionState:PushingBlock )
    A8:  	EndIf
    B0:  	Wait  1`
    BC:  EndLoop
@@ -955,7 +955,7 @@ PADDING: 802410C4 to 802410D0 (000010C4 to 000010D0)
    F4:  	Return
    FC:  EndIf
   104:  Call  DisablePlayerInput    ( .True )
-  114:  Call  SetPlayerActionState  ( 00000014 )
+  114:  Call  SetPlayerActionState  ( .ActionState:PushingBlock )
   124:  Thread
   12C:  	Call  ShakeCam  ( .Cam:Default 00000000  100` *Fixed[0.6] )
   148:  EndThread
@@ -965,7 +965,7 @@ PADDING: 802410C4 to 802410D0 (000010C4 to 000010D0)
   17C:  	Else
   184:  		Call  InterpPlayerYaw   (  90`  0` )
   198:  	EndIf
-  1A0:  	Call  SetPlayerActionState  ( 00000014 )
+  1A0:  	Call  SetPlayerActionState  ( .ActionState:PushingBlock )
   1B0:  	Call  GetPlayerPos  ( *Var0 *Var1 *Var2 )
   1C8:  	Set   *Var1  *Var0
   1D8:  	Set   *Var2  *Var7
@@ -973,7 +973,7 @@ PADDING: 802410C4 to 802410D0 (000010C4 to 000010D0)
   1F8:  	Add   *Var1  *Var2
   208:  	Call  MakeLerp  ( *Var0 *Var1 00000064 .Easing:Linear )
   224:  	Loop
-  230:  		Call  SetPlayerActionState  ( 00000014 )
+  230:  		Call  SetPlayerActionState  ( .ActionState:PushingBlock )
   240:  		Call  UpdateLerp ( )
   24C:  		Call  $Function_802400FC ( )
   258:  		Wait  1`

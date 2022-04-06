@@ -3073,8 +3073,8 @@ PADDING: 802426C8 to 802426D0 (000026C8 to 000026D0)
    CC:  Exec  $Script_8024325C
    D8:  Exec  $Script_8024334C
    E4:  ExecWait  $Script_80243EDC
-   F0:  Call  SetRenderMode ( ~Model:h_yuki2 00000015 )
-  104:  Call  SetRenderMode ( ~Model:khm_y2 00000015 )
+   F0:  Call  SetRenderMode ( ~Model:h_yuki2 .RenderMode:Surf_XLU_ZB_ZUPD )
+  104:  Call  SetRenderMode ( ~Model:khm_y2 .RenderMode:Surf_XLU_ZB_ZUPD )
   118:  Call  ModifyColliderFlags   ( 00000003 ~Collider:ground 00000008 )
   130:  Call  ModifyColliderFlags   ( 00000003 ~Collider:deilisw 00000008 )
   148:  Call  ModifyColliderFlags   ( 00000003 ~Collider:kabe 00000008 )

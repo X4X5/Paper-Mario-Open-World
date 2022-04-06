@@ -738,8 +738,8 @@ PADDING: 802410B4 to 802410C0 (000010B4 to 000010C0)
 
 #new:Script $Script_802410C0
 {
-    0:  Call  SetRenderMode ( ~Model:s_sui 00000016 )
-   14:  Call  SetRenderMode ( ~Model:o385 00000016 )
+    0:  Call  SetRenderMode ( ~Model:s_sui .RenderMode:Surface_XLU_Layer2 )
+   14:  Call  SetRenderMode ( ~Model:o385 .RenderMode:Surface_XLU_Layer2 )
    28:  Call  EnableModel   ( ~Model:o388 .False )
    3C:  Call  EnableModel   ( ~Model:o389 .False )
    50:  Call  TranslateModel    ( ~Model:o387 00000000 0000001E 00000000 )

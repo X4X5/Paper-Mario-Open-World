@@ -1781,7 +1781,7 @@ PADDING: 802424E8 to 802424F0 (000024E8 to 000024F0)
    40:  	If  *Var0  ==  00000000
    50:  		Return
    58:  	Else
-   60:  		Call  SetPlayerActionState  ( 00000014 )
+   60:  		Call  SetPlayerActionState  ( .ActionState:PushingBlock )
    70:  	EndIf
    78:  	Wait  1`
    84:  EndLoop
@@ -1790,7 +1790,7 @@ PADDING: 802424E8 to 802424F0 (000024E8 to 000024F0)
    A4:  	Call  $Function_80240C70    ( *VarA )
    B4:  	Call  MakeLerp  ( *Var3 *Var4 00000028 .Easing:Linear )
    D0:  	Loop
-   DC:  		Call  SetPlayerActionState  ( 00000014 )
+   DC:  		Call  SetPlayerActionState  ( .ActionState:PushingBlock )
    EC:  		Call  UpdateLerp ( )
    F8:  		Call  $Function_80240DBC ( )
   104:  		Wait  1`

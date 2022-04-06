@@ -16,13 +16,13 @@
 				<Node name="Entry1" id="0"/>
 			</Node>
 			<Node name="NPCs" id="9">
-				<Node name="NPC_Sentinel_06" id="2"/>
-				<Node name="NPC_Boo_00" id="3"/>
-				<Node name="NPC_Boo_01" id="4"/>
-				<Node name="NPC_Boo_02" id="5"/>
-				<Node name="NPC_Boo_03" id="6"/>
-				<Node name="NPC_Boo_04" id="7"/>
-				<Node name="NPC_Boo_05" id="8"/>
+				<Node name="Sentinel_06" id="2"/>
+				<Node name="Boo_00" id="3"/>
+				<Node name="Boo_01" id="4"/>
+				<Node name="Boo_02" id="5"/>
+				<Node name="Boo_03" id="6"/>
+				<Node name="Boo_04" id="7"/>
+				<Node name="Boo_05" id="8"/>
 			</Node>
 			<Node name="Entities" id="B">
 				<Node name="Entity80243760" id="A"/>
@@ -68,37 +68,37 @@
 			<MapObject name="NPCs" id="9"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,-1000,0" yaw="90.000000">
-			<MapObject name="NPC_Boo_05" id="8"/>
+			<MapObject name="Boo_05" id="8"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="95" palette="1" animations="1,2,3,3,1,1,0,0,A,3,3,3,3,3,3,3"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,-1000,0" yaw="90.000000">
-			<MapObject name="NPC_Boo_04" id="7"/>
+			<MapObject name="Boo_04" id="7"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="95" palette="1" animations="1,2,3,3,1,1,0,0,A,3,3,3,3,3,3,3"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,-1000,0" yaw="90.000000">
-			<MapObject name="NPC_Boo_03" id="6"/>
+			<MapObject name="Boo_03" id="6"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="95" palette="1" animations="1,2,3,3,1,1,0,0,A,3,3,3,3,3,3,3"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,-1000,0" yaw="90.000000">
-			<MapObject name="NPC_Boo_02" id="5"/>
+			<MapObject name="Boo_02" id="5"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="95" palette="1" animations="1,2,3,3,1,1,0,0,A,3,3,3,3,3,3,3"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,-1000,0" yaw="90.000000">
-			<MapObject name="NPC_Boo_01" id="4"/>
+			<MapObject name="Boo_01" id="4"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="95" palette="1" animations="1,2,3,3,1,1,0,0,A,3,3,3,3,3,3,3"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,-1000,0" yaw="90.000000">
-			<MapObject name="NPC_Boo_00" id="3"/>
+			<MapObject name="Boo_00" id="3"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="95" palette="1" animations="1,2,3,3,1,1,0,0,A,3,3,3,3,3,3,3"/>
 		</Marker>
 		<Marker ver="4" type="NPC" pos="0,0,-1000" yaw="90.000000">
-			<MapObject name="NPC_Sentinel_06" id="2"/>
+			<MapObject name="Sentinel_06" id="2"/>
 			<Movement type="Stationary" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
 			<Sprite sprite="38" palette="0" animations="1,2,3,3,1,1,1,1,5,1,8,1,1,1,1,1"/>
 		</Marker>

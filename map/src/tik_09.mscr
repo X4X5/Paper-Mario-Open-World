@@ -1811,8 +1811,8 @@ PADDING: 8024133C to 80241340 (0000133C to 00001340)
   580:  	Set   *VarC  00000000
   590:  	Exec  $Script_UpdateTexturePan_80242070
   59C:  EndThread
-  5A4:  Call  SetRenderMode ( ~Model:o90 00000016 )
-  5B8:  Call  SetRenderMode ( ~Model:nagab 00000016 )
+  5A4:  Call  SetRenderMode ( ~Model:o90 .RenderMode:Surface_XLU_Layer2 )
+  5B8:  Call  SetRenderMode ( ~Model:nagab .RenderMode:Surface_XLU_Layer2 )
   5CC:  Thread
   5D4:  	Set   *Var2  0000002A
   5E4:  	Exec  $Script_8024245C

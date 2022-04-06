@@ -2721,7 +2721,7 @@ PADDING: 8024227C to 80242280 (0000227C to 00002280)
   170:  		Call  ModifyColliderFlags   ( 00000000 ~Collider:o621 7FFFFE00 )
   188:  EndSwitch
   190:  ExecWait  $Script_MakeEntities
-  19C:  Call  SetRenderMode ( ~Model:o583 00000016 )
+  19C:  Call  SetRenderMode ( ~Model:o583 .RenderMode:Surface_XLU_Layer2 )
   1B0:  ExecWait  $Script_802421E0
   1BC:  Exec  $Script_80242E38
   1C8:  ExecWait  $Script_80243A78

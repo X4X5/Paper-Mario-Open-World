@@ -4627,7 +4627,7 @@ PADDING: 80243B58 to 80243B60 (00003B58 to 00003B60)
    84:  If  *GB_StoryProgress  >=  .Story:Ch0_KammyReturnedToBowser % FFFFFF94
    94:  	Set   *GF_Map_ToadTown  .True
    A4:  EndIf
-   AC:  Call  SetRenderMode ( ~Model:minka1_yuka 00000015 )
+   AC:  Call  SetRenderMode ( ~Model:minka1_yuka .RenderMode:Surf_XLU_ZB_ZUPD )
    C0:  Call  ModifyColliderFlags   ( 00000000 ~Collider:dummy 7FFFFE00 )
    D8:  Switch  *GB_StoryProgress
    E4:  	Case  ==  .Story:Intro % FFFFFF80
